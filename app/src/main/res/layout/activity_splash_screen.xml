@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashScreenActivity"
+    android:background="@color/button">
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_screen_background" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/splash_screen_icon"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230sp"
+        android:src="@drawable/hustle_round_icon" />
+
+    <TextView
+        android:id="@+id/splash_screen_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/splash_screen_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-47dp"
+        android:text="Hustle"
+        android:textSize="34sp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/splash_screen_app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-70dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/quote"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:lineHeight="22dp" />
+
+    <TextView
+        android:fontFamily="@font/poppins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developers"/>
+
+    
+
+</RelativeLayout>

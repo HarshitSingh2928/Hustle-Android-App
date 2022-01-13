@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hustle</string>
+    <string name="welcome_onb">Welcome Onboard!</string>
+    <string name="we_help_you">We help you meet up you tasks on time.</string>
+    <string name="welcome_back">Welcome Back !</string>
+    <string name="channel_name">notificationChannel</string>
+    <string name="channel_description">Channel for Notification</string>
+    <string name="developers">Developed by- Harshit and Atul</string>
+    <string name="quote">Hustle beats talent, When talent doesn\'t hustle</string>
+</resources>

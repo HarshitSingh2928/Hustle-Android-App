@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5">
+
+    <ImageView
+        android:id="@+id/register_img"
+        android:layout_width="247dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:background="#00000000"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/hustle_design1"></ImageView>
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/welcomeback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/register_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/welcome_back"
+        android:textAppearance="@style/welcome_onb"
+        app:lineHeight="27px"></TextView>
+
+    <ImageView
+        android:id="@+id/log_in_img"
+        android:layout_width="195dp"
+        android:layout_height="117dp"
+        android:layout_alignBottom="@+id/welcomeback"
+        android:layout_marginBottom="-146dp"
+        android:src="@drawable/imgg"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/input_email_login"
+        android:layout_width="341dp"
+        android:layout_height="49dp"
+        android:layout_alignBottom="@+id/log_in_img"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-65dp"
+        android:background="@drawable/shapess"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="40dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:textSize="18sp"
+        android:id="@+id/input_confirm_login"
+        android:layout_width="341dp"
+        android:layout_height="49dp"
+        android:layout_alignBottom="@+id/input_email_login"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-64dp"
+        android:background="@drawable/shapess"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="40dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/forgot_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/input_confirm_login"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-41dp"
+        android:fontFamily="@font/poppins"
+        android:text="Forgot Password"
+        android:textColor="#FFD615"
+        android:shadowRadius="5"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:shadowColor="@color/black"
+        android:textSize="18sp"></TextView>
+
+    <Button
+        android:id="@+id/sign_in2"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@id/forgot_pass"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-76dp"
+        android:background="@drawable/shape_button"
+        android:elevation="4dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD615" />
+    <TextView
+        android:id="@+id/don_t_have_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sign_in2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-41dp"
+        android:fontFamily="@font/poppins"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:textSize="18sp"></TextView>
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/don_t_have_"
+        android:layout_marginBottom="-22dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins"
+        android:onClick="SignUp"
+        android:text="Sign Up"
+        android:textColor="#FFD615"
+        android:shadowColor="@color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textSize="18sp"></TextView>
+
+</RelativeLayout>

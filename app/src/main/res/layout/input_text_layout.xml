@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/frame_background">
+    
+    <ImageView
+        android:layout_width="247dp"
+        android:layout_height="235dp"
+        android:src="@drawable/hustle_design1"
+        android:scaleType="fitXY"
+        android:clickable="false"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+        
+        <TextView
+            android:textSize="16sp"
+            android:text="Add a new Daily Task"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_task_frame"/>
+
+        <EditText
+            android:id="@+id/task_input_frame_layout"
+            android:layout_width="300dp"
+            android:inputType="textMultiLine"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:maxWidth="50dp"
+            android:maxLength="100"
+            android:background="@drawable/shapess"
+            android:hint="Task"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+           <TextView
+               android:layout_gravity="start"
+               android:id="@+id/notificationTimeButton"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:fontFamily="@font/poppins"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:background="@drawable/shapess"
+               android:hint="notification time"
+               android:layout_width="150dp"
+               android:layout_height="40dp"/>
+
+
+            <TextView
+                android:layout_gravity="end"
+                android:id="@+id/targetTimeButton"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:background="@drawable/shapess"
+                android:hint="Complete By"
+                android:layout_width="150dp"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+</FrameLayout>

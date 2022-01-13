@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:background="?attr/selectableItemBackground">
+
+
+        <CheckBox
+            android:checked="false"
+            android:buttonTint="@android:color/transparent"
+            android:background="@drawable/checkbox_design"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/task_layout_check"/>
+        <TextView
+            android:id="@+id/task_layout_text"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Tasks"
+            android:textStyle="bold" />
+
+
+
+</LinearLayout>
