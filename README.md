@@ -28,7 +28,8 @@ Firebase Realtime Database
 * Backend user authentication : Firebase Authentication
 ## Setup
 To run this app :
-* 1)Copy the apk file present in "Apk" folder to your android phone.
+* 1)Copy the apk file present in this GDrive link to your android phone.
+* Link: https://drive.google.com/drive/folders/1kARRu_h4LfHUul6j28SyLS-r9hwdDD3E
 * 2)Run the apk file on your phone to install the app.(Make sure to give the permission to install from 'unknown source'.)
 ## Features
 * Safe signup/login with email verification.
