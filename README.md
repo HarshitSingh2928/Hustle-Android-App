@@ -25,6 +25,7 @@ Android Studio
 Android SDK
 * Database:
 Firebase Realtime Database
+* Backend user authentication : Firebase Authentication
 ## Setup
 To run this app :
 * 1)Copy the apk file present in "Apk" folder to your android phone.
